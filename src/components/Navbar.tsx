@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ShoppingBag, Search, Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import SearchModal from './SearchModal';
@@ -83,11 +83,11 @@ export default function Navbar({ cartItemsCount, onCartClick }: NavbarProps) {
 
         {/* Mobile menu */}
         <div
-          className={`lg:hidden transform transition-all duration-300 ease-in-out ${
-            isMenuOpen ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
-          } border-b border-gray-200`}
+          className={`lg:hidden absolute left-0 right-0 bg-white ${
+            isMenuOpen ? 'block' : 'hidden'
+          }`}
         >
-          <div className="px-4 py-2 space-y-1">
+          <div className="px-4 py-2 space-y-1 shadow-lg">
             {navLinks.map(({ path, label }) => (
               <Link
                 key={path}
