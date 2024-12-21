@@ -15,7 +15,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h2>
             <p className="text-gray-600 mb-6">
-              Founded in 1970, Essence has been at the forefront of luxury perfumery for over five decades. 
+              Founded in 1980, Essence has been at the forefront of luxury perfumery for over five decades. 
               Our commitment to quality, creativity, and sustainability has made us a leader in the fragrance industry.
             </p>
             <p className="text-gray-600">
