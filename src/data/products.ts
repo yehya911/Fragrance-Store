@@ -50,5 +50,15 @@ export const products: Product[] = [
     image: 'https://images.unsplash.com/photo-1557170334-a9632e77c6e4?auto=format&fit=crop&q=80&w=2000',
     category: 'floral',
     size: '50ml'
+  },
+  {
+    id: '6',
+    name: 'Cedar & Sage',
+    brand: 'Nordic Woods',
+    price: 195,
+    description: 'An invigorating blend of cedarwood, wild sage, and crisp pine needles.',
+    image: 'https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&q=80&w=2000',
+    category: 'woody',
+    size: '75ml'
   }
 ];
